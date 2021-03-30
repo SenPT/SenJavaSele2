@@ -21,11 +21,9 @@ public class LoginPage {
         this.setPassword(password);
         this.clickLogin();
     }
-
     public void setUserName(String userName){
         driver.findElement(userNameTextBox).sendKeys(userName);
     }
-
     public void setPassword(String password){
         driver.findElement(passwordTextBox).sendKeys(password);
     }

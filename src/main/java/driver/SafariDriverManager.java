@@ -1,5 +1,4 @@
 package driver;
-
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
